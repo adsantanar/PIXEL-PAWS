@@ -1,0 +1,91 @@
+/* Estilos Generales */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333333;
+}
+
+h1, h2, h3 {
+    font-family: 'Press Start 2P', cursive;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #F7F7F7;
+}
+
+.logo h1 {
+    font-size: 24px;
+    color: #FFD166;
+    margin: 0;
+}
+
+.tagline {
+    font-size: 14px;
+    color: #E94F37;
+    margin: 0;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #FFD166;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    color: #333333;
+}
+
+.btn {
+    background-color: #E94F37;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+/* Product Grid */
+.products {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product-card {
+    width: 200px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.product-img {
+    height: 150px;
+    background-color: #eee; /* Sustituir por imagen */
+    margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+    background-color: #333333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .logo h1 {
+    color: white;
+}
